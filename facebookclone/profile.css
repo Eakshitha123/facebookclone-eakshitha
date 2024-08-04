@@ -1,0 +1,204 @@
+.coverpage img
+{
+    
+    width:950px;
+    border-radius: 12px;
+}
+.coverpage{
+    height:350px;
+    width:100%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.friends
+{
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+   
+}
+.friendpic img
+{
+    width:80px;
+    border-radius: 12px;
+}
+.friendpic
+{
+    margin-right: 18px;
+}
+.friendsinfo img{
+    width:36px;
+    border-radius: 50%;
+}
+.picsrow
+{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.picsrow div
+{
+    margin-right: -2px;
+}
+.friendsinfo p
+{
+   margin: 5px;
+}
+.friendsinfo
+{
+    display: flex;
+    flex-direction: column;
+  
+    text-align: initial;
+}
+.second
+{
+    
+    height: 200px;
+    width:990px;
+    margin-left: 200px;
+    padding: 15px;
+  margin-top: -25px;
+
+}
+.click
+{
+    position: absolute;
+    display: flex;
+    width:200px;
+    padding:15px;
+    justify-content: space-evenly;
+    right:80px;
+    bottom: 50px;
+    
+}
+.click button{
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    width: 120px;
+    align-items: center;
+    margin: 12px;
+    color:white;
+    font-weight: bolder;
+}
+.click img{
+    width:20px;
+    margin-right: 8px;
+}
+.more
+{
+    position: absolute;
+    border: none;
+    right:35px;
+    bottom:20px;
+    cursor: pointer;
+    background-color: rgb(202, 202, 194);
+    padding:2px 8px 2px 8px;
+    
+}
+.moreimage
+{
+    width:25px;
+}
+.third
+{
+    width: 950px;
+    margin-left: 220px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.information
+{
+    flex-basis: 38%;
+  
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.remaining
+{
+    flex-basis: 58%;
+    
+}
+.intro
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.motivation
+{
+    
+    font-size: 15px;
+    padding: 12px;
+    text-align: center;
+    line-height: 18px;
+  
+    
+}
+.motivation img{
+    width:11px;
+   
+}
+.introlinks
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.introlinks a{
+    
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    text-decoration: none;
+    color:rgb(13, 13, 14);
+    font-size: 13px;
+    font-weight: 400;
+}
+.introlinks a img{
+    width:25px;
+   margin-right: 12px;
+}
+.allphotos
+{
+    padding: 28px;
+    background-color: #fff;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.gridimages
+{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top: 15px;
+    row-gap: 9px;
+    column-gap: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.gridimages img{
+    width:100px;
+}
+.userfriends
+{
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    background-color: #fff;
+}

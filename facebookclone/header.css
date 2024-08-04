@@ -1,0 +1,113 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:sticky;
+    z-index: 3;
+    top:0;
+    height:70px;
+    width:100%;
+    background-color: dodgerblue;
+    flex-shrink: 0;
+}
+.leftsection
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width:350px;
+    padding-left: 12px;
+    margin-left: 50px;
+ 
+}
+.logo
+{
+ 
+    padding-left:10px;
+    padding-top: 5px;
+}
+.logoimage
+{
+    height:35px;
+}
+.leftsectionicons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width:250px;
+
+}
+.leftsectionicons img
+{
+ height:25px;
+}
+.rightsection
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 550px;
+    flex-shrink: 0;
+    width:400px;
+
+}
+
+
+.searchbar
+{
+   
+    background-color: beige;
+    display:flex;
+    align-items: center;
+    width:300px;
+    border-radius: 20px;
+    padding:0px 15px;
+    height:30px;
+    justify-content: space-between;
+   
+}
+.searchbar img{
+    width:18px;
+}
+.searchbox
+{
+    border:none;
+   outline:none;
+   width:245px;
+   height:20px;
+   background: transparent;
+  
+    
+}
+.searchbox::placeholder
+{
+    
+    padding-left: 5px;
+
+}
+.usericon img
+{
+   border-radius: 50%;
+   width:38px;
+}
+.online
+{
+    position:relative;
+   
+}
+.online::after{
+    content:'';
+    width:7px;
+    height:7px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    position:absolute;
+    top:0;
+    right:0;
+    background-color:#41db51;
+}
