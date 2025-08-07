@@ -23,11 +23,8 @@ This is a fully responsive **Facebook clone** built to replicate the basic struc
 
 - **HTML5**
 - **CSS3** (Flexbox, Grid, Media Queries)
-- **JavaScript** (for interactivity)
 - **Font Awesome** for icons
 - **Netlify** for deployment
 
----
 
-## 📁 Folder Structure
 
