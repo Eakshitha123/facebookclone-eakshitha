@@ -1,4 +1,4 @@
-# 📘 Facebook Clone – Built by Eakshitha Cheppali
+# 📘 Facebook Clone 
 
 This is a fully responsive **Facebook clone** built to replicate the basic structure and UI of the original Facebook platform. The goal of this project was to enhance my front-end development skills by building a real-world clone using modern web technologies.
 
